@@ -21,8 +21,8 @@ public class testBiobuzzStarterBotDrive extends LinearOpMode {
         DcMotor flyWheel = hardwareMap.get(DcMotor.class, "FlyWheel");
         Servo fwActuator = hardwareMap.get(Servo.class, "fwActuator");
 
-        leftDrive.setDirection(DcMotorSimple.Direction.REVERSE);
-        fwActuator.setDirection(Servo.Direction.REVERSE);
+        leftDrive.setDirection(DcMotorSimple.Direction.REVERSE); // keep in mind, youve gotta ask mr beatty if i should keep to reverse or not
+        fwActuator.setDirection(Servo.Direction.REVERSE);  // keep in mind, youve gotta ask mr beatty if i should keep to reverse or not
 
         leftDrive.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
         rightDrive.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
