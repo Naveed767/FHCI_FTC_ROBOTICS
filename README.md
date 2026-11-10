@@ -19,8 +19,6 @@ Current programs:
 - Right bumper: intake in
 - Left bumper: intake out
 - Right trigger: flywheel speed
-- A button: move the actuator out
-- X button: bring the actuator back home
 
 ## Robot configuration names
 
