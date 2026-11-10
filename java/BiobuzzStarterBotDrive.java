@@ -42,7 +42,6 @@ public class BiobuzzStarterBot extends LinearOpMode {
             leftDrive.setPower(left);
             rightDrive.setPower(right);
 
-            // actuator
             if (gamepad1.a) {
                 fwActuator.setPosition(ACTUATOR_OUT);
             } else if (gamepad1.x) {
