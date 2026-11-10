@@ -43,3 +43,4 @@ The names in the code have to match the robot configuration on the Control Hub e
 -Naveed Shaik
 -Dario Ricci
 -Ron? (dunno if he even knows abt this)
+-Eric helped with the planning of some parts
