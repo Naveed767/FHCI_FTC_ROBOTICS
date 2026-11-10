@@ -7,7 +7,7 @@ import com.qualcomm.robotcore.hardware.DcMotorSimple;
 import com.qualcomm.robotcore.hardware.Servo;
 
 @TeleOp(name = "BIOBUZZ Starter Bot", group = "Linear Opmode")
-public class BiobuzzStarterBot extends LinearOpMode {
+public class BiobuzzStarterBotDrive extends LinearOpMode {
 
     // fix these on the field
     static final double ACTUATOR_OUT = 0.2;  
